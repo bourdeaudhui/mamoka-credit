@@ -1,0 +1,27 @@
+{
+  "name": "mamoka-credit",
+  "version": "1.0.0",
+  "description": "A very simple WebComponent for displaying, as a footer credit, a Mamoka animated logo linked to https://mamoka.com",
+  "main": "dist/mamoka-credit.js",
+  "dependencies": {
+    "lottie-web": "^5.9.1"
+  },
+  "devDependencies": {
+    "html-loader": "^3.1.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bourdeaudhui/mamoka-credit.git"
+  },
+  "author": "a.bourdeaudhui@mamoka.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bourdeaudhui/mamoka-credit/issues"
+  },
+  "homepage": "https://github.com/bourdeaudhui/mamoka-credit#readme"
+}
